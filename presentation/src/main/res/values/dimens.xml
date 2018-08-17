@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_text_size">18sp</dimen>
+
+    //RecyclerView Margins
+    <dimen name="rv_all_margins">8dp</dimen>
+
+    //Buttons
+    <dimen name="button_all_margins">8dp</dimen>
+
+    //EditText
+    <dimen name="edit_text_margins">8dp</dimen>
+
+    //Image Activity Add Scan
+    <dimen name="image_max_height">200dp</dimen>
+    <dimen name="image_view_margins">8dp</dimen>
+    <dimen name="rv_padding">8dp</dimen>
+
+    //TextView margins
+    <dimen name="text_view_margins">8dp</dimen>
+
+
+    //FAB standard margins
+    <dimen name="fab_margins">11dp</dimen>
+
+    // In CardView
+    <dimen name="image_view_width_height">80dp</dimen>
+    <dimen name="title_textview_margin_start">136dp</dimen>
+    <dimen name="date_textview_margin_end">44dp</dimen>
+
+    //Custom Tab
+    <dimen name="custom_tab_textview_text_size">16sp</dimen>
+
+    //Scan Row
+
+    <dimen name="text_view_margin_start">14dp</dimen>
+
+    // Empty labels and scan list
+    <dimen name="text_view_empty_label_text_size">14sp</dimen>
+    <dimen name="empty_list_text_margin">16dp</dimen>
+
+</resources>

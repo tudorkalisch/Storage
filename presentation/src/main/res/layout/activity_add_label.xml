@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addLabelFrag"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".labels.add.AddLabelActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageView
+            android:contentDescription="@string/add_label"
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginEnd="@dimen/edit_text_margins"
+            android:layout_marginStart="@dimen/edit_text_margins"/>
+
+        <TextView
+            android:layout_marginStart="@dimen/edit_text_margins"
+            android:layout_marginEnd="@dimen/edit_text_margins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_label_toolbar_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/toolbar_text_size" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/addLableRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/rv_all_margins"
+        android:layout_marginStart="@dimen/rv_all_margins"
+        android:layout_marginTop="@dimen/rv_all_margins"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemNameEditText" />
+
+    <Button
+        android:id="@+id/addLabelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_all_margins"
+        android:layout_marginLeft="@dimen/button_all_margins"
+        android:layout_marginRight="@dimen/button_all_margins"
+        android:background="@drawable/button_style"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/add_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addLableRecyclerView" />
+
+        <Button
+            android:id="@+id/addLabelSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_all_margins"
+            android:layout_marginLeft="@dimen/button_all_margins"
+            android:layout_marginRight="@dimen/button_all_margins"
+            android:layout_marginTop="@dimen/button_all_margins"
+            android:background="@drawable/button_style"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addLabelButton" />
+
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/edit_text_margins"
+        android:layout_marginRight="@dimen/edit_text_margins"
+        android:layout_marginTop="@dimen/edit_text_margins"
+        android:ems="10"
+        android:hint="@string/item_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/addLableRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

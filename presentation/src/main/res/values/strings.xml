@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LabelReader</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_image">Change Image</string>
+    <string name="image">Image</string>
+    <string name="edit_label">Edit Label</string>
+    <string name="update">Update</string>
+    <string name="add_label">Add Property</string>
+    <string name="submit">Save</string>
+    <string name="label_name">Property</string>
+    <string name="item_name">Item Name</string>
+    <string name="ocr_image">OCR Image</string>
+    <string name="image_description" />
+    <string name="add_scanitem_toolbar_title">Add OCR Item</string>
+    <string name="default_edittext_hint">Value</string>
+    <string name="add_new_item">Add New Item</string>
+
+
+    //Float Buttons
+    <string name="scans_float_button">Take picture</string>
+    <string name="scans_float_gallery_button">Import picture</string>
+    <string name="label_float_button">Add label</string>
+
+    //Search
+    <string name="search_hint">Search</string>
+    <string name="cd_image_card_view">image card view</string>
+    <string name="image_card_items_label">image card items label</string>
+    <string name="edit_scanitem_toolbar_title">Edit Scan</string>
+    <string name="edit_label_toolbar_title">Edit Label</string>
+    <string name="add_label_toolbar_title">Add Label</string>
+    <string name="add_scan_toolbar_title">Add scan</string>
+    <string name="image_main_toolbar">Image main toolbar</string>
+    <string name="add_scan_button_text">ADD</string>
+    <string name="edit_scan_button_text">edit</string>
+
+    //Empty lists
+    <string name="empty_label_list">The label list is empty \nPress the button bellow to\n add a label item</string>
+    <string name="empty_scan_list">The scan list is empty \nPress the button bellow to\n add a scan item</string>
+    <string name="nameTextView">Name:</string>
+    <string name="scan_title">Scan Title</string>
+    <string name="error_null_check">The item title cannot be empty!</string>
+    <string name="title">Title</string>
+
+
+</resources>

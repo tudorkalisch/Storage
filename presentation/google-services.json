@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "719860401374",
+    "firebase_url": "https://labelrecognition-ac7db.firebaseio.com",
+    "project_id": "labelrecognition-ac7db",
+    "storage_bucket": "labelrecognition-ac7db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719860401374:android:41beb23d100ce76a",
+        "android_client_info": {
+          "package_name": "com.example.deakdan.labelreaderv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719860401374-fgvd3k291ajm4upod5385i5ohj3c22lu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deakdan.labelreaderv2",
+            "certificate_hash": "95cefb04eef6d22efb1e2ab9e9f7f39d28e32983"
+          }
+        },
+        {
+          "client_id": "719860401374-7hbj0m0nlo5qmng8rmml64u7fngn389u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN8vfci3Le_6gGjiASx9uGRrrDD-_uRo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719860401374-7hbj0m0nlo5qmng8rmml64u7fngn389u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

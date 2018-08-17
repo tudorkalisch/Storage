@@ -1,0 +1,14 @@
+task checkQualityLog {
+    doLast {
+        print 'Quality Check COMPLETED'
+    }
+}
+
+task checkQuality(type: GradleBuild) {
+    tasks = [
+            'pmd',
+            'checkstyle',
+            'checkLint'
+    ]
+}
+checkQuality.finalizedBy 'checkQualityLog'
